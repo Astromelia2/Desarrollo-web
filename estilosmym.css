@@ -1,0 +1,283 @@
+body{
+    
+    background-image: url('fondomadera.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', sans-serif;
+    background-attachment: fixed;
+}
+
+.img_header{
+    width: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+}
+
+.tit_menu{
+    width: 100%;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 280%;
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(11, 201, 201);
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 2px 0px 1px;
+
+}
+
+.img_menu{
+    width: 100%;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px -5px 0px;
+
+}
+
+.menu{
+    Width: 100%; 
+    display: block;
+    background-color: calc();
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    font-weight: bolder;
+    color: black;
+    padding: 0 auto;
+    margin: 0 auto;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+.vmenu{
+    Width: 100%; 
+    display: block;
+    background-color: calc();
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    font-weight: bolder;
+    color: black;
+    padding: 0 auto;
+    margin: 0 auto;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav{
+    width: 100%;
+    text-align: left;
+}
+
+.nav_link{
+    color: black;
+    display: block;
+    border-radius: 6px ;
+    padding-left: 0px;
+}
+
+
+.artvideo{
+    Width: 100%;
+    display: block;
+    height: 500px;
+    padding: 0px 0px 0px 0px;
+
+}
+
+.artmenu{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}   
+
+.artx2{
+    width: 47%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.img_artx22{
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.img_artx4{
+    width: 90%;
+} 
+
+.artx4{
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.artx42{
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 30px;
+}
+
+.artx44{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.artx7{
+    width: 13.5%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+}
+
+.tit_pie1{
+    width: 105.5%;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300%;
+    font-weight: bolder;    
+    color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+.tit_pie2{
+    width: 97.5%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300%;
+    font-weight: bolder;
+    color: black;
+    background-color: calc();
+    text-align: center;
+    padding: 20px 0px 50px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.tit_pie3{
+    width: 97.5%;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300%;
+    font-weight: bolder;
+    color: black;
+    background-color: calc();
+    text-align: center;
+    padding: 0px 0px 40px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.list_show{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: height .4s;
+    height: 0;
+}
+
+.bloque{
+    width: 97%;
+    margin: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 20px;
+
+}
+.nav__link--inside{
+    border-radius: 6px ;
+    padding-left: 0px;
+    font-palette: black;
+}
+
+.leyend_menu{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    font-weight: 200;
+    font-weight: bolder;
+    color: black;
+    background-color: calc();
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.leyend_form{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    font-weight: 200;
+    font-weight: bolder;
+    color: black;
+    background-color: calc();
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 20px 20px 20px;
+}
+
+.leyend_qsomos{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    font-weight: 200;
+    font-weight: bolder;
+    color: black;
+    background-color: calc();
+    text-align: justify;
+    padding: 15px 20px 0px 20px;
+    margin: 15px 20px 20px 20px;
+}
+
+.leyend_menu7{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+    font-weight: 200;
+    font-weight: bolder;
+    color: black;
+    background-color: calc();
+    text-align: center;
+    padding: 5px 10px 0px 10px;
+    margin: 5px 10px 10px 10px;
+}
+
+.tit_leyend_menu{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 300%;
+    font-weight: 300;
+    font-weight: bolder;
+    color: black;
+    background-color: calc();
+    text-align-last: center;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+}
