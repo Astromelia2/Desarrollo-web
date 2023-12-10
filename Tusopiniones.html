@@ -2,6 +2,7 @@
     <html lang="es">
         <head>
         <title>Asados al barril M&M</title>
+        <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
@@ -20,12 +21,23 @@
                             </p>
                         </div>
                         <div class="artx42">
-                            <form onsubmit="return validarFormulario()">
-                                <input type="text" placeholder="Nombre y Apellido" name="NombreUsuario" id="NombreUsuario" required><br>
-                                <input type="number" placeholder="Edad" name="EdadUsuario" id="EdadUsuario" required><br>
+                            <form action ="php/datos.php" method="post" >
+                                
+                                <input type="text" placeholder="Documento" name="documento" id="documento" required><br>
+                                <input type="text" placeholder="Nombre y Apellidos" name="nombreUsuario" id="nombreUsuario" required><br>
+                                <select name="Genero" id=genero><br>
+                                    <option val="Masculino"> Masculino </option>
+                                    <option val="Femenino"> Femenino </option>
+                                    <option val="Otro"> Otro </option>
+
+                                </select><br>
+                                <input type="text" placeholder="Ciudad de Nacimiento" name="Ciudad" id="Ciudad" required><br>
+                                <input type="number" placeholder="Edad" name="edadUsuario" id="edadUsuario" required><br>
                                 <input type="email" placeholder="e-mail" name="emailUsuario" id="emailUsuario" required><br>
-                                <input type="text" placeholder="Comentario" name="Comentario" id="Comentario" required><br>
-                                <button type="submit">Enviar</button>
+                                <input type="text" placeholder="Comentario" name="comentario" id="comentario" required><br>
+                                <input type="text" placeholder="Usuario" name="nombreUsuario2" id="nombreUsuario2" required><br>
+                                <input type="password" placeholder="password" name="password" id="password" required><br>
+                                <input type="submit" value="Enviar" name="Enviar"><br>
                             </form>
                         </div>
                     </div>
@@ -37,6 +49,8 @@
                 <a href="Asadosm&m.html" class="vmenu">Volver al inicio  >
                 </a>
             </div>
-            <script src="anim.js"></script>
+          <!--<script src="anim.js"></script>--> 
+
+          
         </body>
     </html>
